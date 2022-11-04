@@ -1,0 +1,31 @@
+/*
+Add your styles here
+*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    background: rgb(37, 132, 167);
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    transition: all 0.15s ease-in-out;
+}
+
+.expand {
+    transform : scale(1.4)
+}
